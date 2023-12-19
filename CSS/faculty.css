@@ -1,0 +1,482 @@
+.flex-con1{
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.flex-item1-1{
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+}
+
+.item1-1{
+    flex-grow: 5;
+    background-color: darkgreen;
+}
+.item2-1{
+    flex-grow: 2;
+    background-color: gold;
+}
+
+header{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgreen;
+}
+
+h1{
+    padding: 3px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+ 
+a{
+    padding-left: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: lightgreen;
+    text-decoration-thickness: 3px;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+.green{
+    height: 15px;
+    background-color: darkgreen;
+}
+
+.text1{
+    display: flex;
+    text-align: left;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 20px;
+}
+.text2{
+    display: flex;
+    text-align: left;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 20px;
+}
+.text3{
+    display: flex;
+    text-align: left;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.hh1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 100px;
+
+}
+
+.h2{
+    color: black;
+    display: flex;
+    font-size: 3rem;
+    padding: 5px;
+    margin: 20px;
+}
+
+.body2{
+    text-align: left;
+}
+
+
+.hh1{
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 6px white;
+    font-size: 3rem;
+    padding: 100px;
+}
+
+.h3{
+    color: black;
+    display: flex;
+    font-size: 3rem;
+    padding: 5px;
+    margin: 20px;
+}
+
+.pic{
+    width: 10%;
+}
+
+.faculty-name{
+    font-size: 1.2rem;
+    padding: 1px;
+    margin: 2px;
+    margin-bottom: 2px;
+    transition: width 2s;
+}
+
+.educational-attaintment{
+    font-size: 1rem;
+    padding: 1px;
+    margin: 20px;
+}
+
+
+.white{
+    height: 60px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.cen{
+    flex-direction: column;
+    
+}
+
+
+@media(max-width:420px){
+    .flex-item1{
+        flex-direction: column;
+        font-size: 3vw;
+    }
+    .item1{
+        font-size: 3vw;
+        
+    }
+    
+    .item2{
+        font-size: 2vw;
+    }
+    
+    a:hover{
+        border-style:groove;
+        color: darkgreen;
+        background-color: gold;
+    }
+    
+    a{
+        font-size: 2vw;
+    }
+    
+    .yellow{
+        height: 15px;
+        background-color: gold;
+        border-radius: 3px;
+    }
+    
+    
+    
+    
+    .body{
+        display: flex;
+        background-image: url(./images/mmsu.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover;
+    }
+    
+    .text1{
+        font-size: 3vw;
+    }
+    .text2{
+        font-size: 3vw;
+    }
+    .text3{
+        font-size: 3vw;
+    }
+    
+    
+    
+    h1{
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        padding: 100px;
+    
+    }
+    
+    .h2{
+        font-size: 5vw;
+    }
+    
+    .body2{
+        text-align: left;
+    }
+    
+    .bg1{
+        background-image: url(./images/college.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    
+    .hh1{
+       font-size: 4vw;
+    }
+    
+    .h3{
+        font-size: 6vw;
+       
+    }
+
+    .pic{
+        width:25%;
+    }
+
+    .faculty-name{
+        font-size: 3vw;
+    }
+    
+    .educational-attaintment{
+        font-size: 3vw
+    }
+    
+    
+    .white{
+        height: 60px;
+        background-color: transparent;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.text1{
+   display: flex;
+   text-align: left;
+   font-size: 1rem;
+   padding: 10px;
+   margin: 20px;
+}
+.text2{
+   display: flex;
+   text-align: left;
+   font-size: 1rem;
+   padding: 10px;
+   margin: 20px;
+}
+.text3{
+   display: flex;
+   text-align: left;
+   font-size: 1rem;
+   padding: 10px;
+   margin: 20px;
+}
+
+
+.hh1{
+   color: white;
+   font-size: 3rem;
+   text-align: center;
+   padding: 100px;
+
+}
+
+.h2{
+   color: black;
+   display: flex;
+   font-size: 3rem;
+   padding: 5px;
+   margin: 20px;
+}
+
+.body2{
+   text-align: left;
+}
+
+
+.hh1{
+   text-align: center;
+   color: black;
+   text-shadow: 3px 3px 6px white;
+   font-size: 3rem;
+   padding: 100px;
+}
+
+.h3{
+   color: black;
+   display: flex;
+   font-size: 3rem;
+   padding: 5px;
+   margin: 20px;
+}
+
+.faculty-name{
+   font-size: 1.2rem;
+   padding: 1px;
+   margin: 2px;
+   margin-bottom: 2px;
+   transition: width 2s;
+}
+
+.educational-attaintment{
+   font-size: 1rem;
+   padding: 1px;
+   margin: 20px;
+}
+
+
+.white{
+   height: 60px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+
+.span{
+   font-weight: bold;
+}
+
+
+
+.footer {
+    background-color: darkgreen;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+
+@media(max-width:420px){
+   .flex-item1{
+       flex-direction: column;
+       font-size: 3vw;
+   }
+   .item1{
+       font-size: 3vw;
+       
+   }
+   
+   .item2{
+       font-size: 2vw;
+   }
+   
+   a:hover{
+       border-style:groove;
+       color: darkgreen;
+       background-color: gold;
+   }
+   
+   a{
+       font-size: 2vw;
+   }
+   
+   .yellow{
+       height: 15px;
+       background-color: gold;
+       border-radius: 3px;
+   }
+   
+   
+   
+   
+   .body{
+       display: flex;
+       background-image: url(./images/mmsu.jpg);
+       background-size: cover;
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       background-position-x: center;
+       background-size: cover;
+   }
+   
+   .text1{
+       font-size: 3vw;
+   }
+   .text2{
+       font-size: 3vw;
+   }
+   .text3{
+       font-size: 3vw;
+   }
+   
+   
+   
+   h1{
+       color: white;
+       font-size: 3rem;
+       text-align: center;
+       padding: 100px;
+   
+   }
+   
+   .h2{
+       font-size: 5vw;
+   }
+   
+   .body2{
+       text-align: left;
+   }
+   
+   .bg1{
+       background-image: url(./images/college.jpg);
+       background-size: cover;
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       background-position-x: center;
+   }
+   
+   .hh1{
+      font-size: 4vw;
+   }
+   
+   .h3{
+       font-size: 6vw;
+      
+   }
+
+   .pic{
+       width:25%;
+   }
+
+   .faculty-name{
+       font-size: 3vw;
+   }
+   
+   .educational-attaintment{
+       font-size: 3vw
+   }
+   
+   
+   .white{
+       height: 60px;
+       background-color: transparent;
+       border-radius: 5px;
+   }
+}

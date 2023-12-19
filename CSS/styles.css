@@ -1,0 +1,85 @@
+.flex-con1{
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.flex-item1-1{
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+}
+
+.body{
+    background-image: url(./images/mmsu.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+.item1-1{
+    flex-grow: 5;
+    background-color: darkgreen;
+}
+.item2-1{
+    flex-grow: 2;
+    background-color: gold;
+}
+
+header{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgreen;
+}
+
+h1{
+    padding: 3px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+ 
+a{
+    padding-left: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: lightgreen;
+    text-decoration-thickness: 3px;
+}
+
+.hh1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.sec1{
+    text-align: justify;
+    padding: 0px 30px;
+    padding: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
